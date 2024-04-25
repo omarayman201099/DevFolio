@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+
+#home{
+    background-image: url(../img/hero-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size:cover ;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+   
+ 
+    
+
+}
+
+.contanier{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh; background-attachment: scroll;
+    
+    
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.7);
+}
+
+
+.animation h4{
+    text-align: center;
+}
+
+.animation::after{
+    content:"|";
+    animation: typing 3s infinite alternate;
+    color: #fff;
+  
+
+}
+
+
+
+@keyframes typing{
+    0%{
+        content: '|';
+    }
+
+    3%{
+        content: 'F|';
+    }
+    6%{
+        content: 'Fr|';
+    }
+    9%{
+        content: 'Fre|';
+    }
+    12%{
+        content: 'Free|';
+    }
+    15%{
+        content: 'Freel|';
+    }
+    18%{
+        content: 'Freela|';
+    }
+    21%{
+        content: 'Freelan|';
+    }
+    24%{
+        content: 'Freelanc|';
+    }
+    27%{
+        content: 'Freelanca|';
+    }
+    30%{
+        content: 'Freelancar|';
+    }
+    33%{
+        content: "Freelanca|";
+    }
+    36%{
+        content: "Freelanc|";
+    }
+    39%{
+        content: "Freelan|";
+    }
+    
+    42%{
+        content: "Freela|";
+    }
+    45%{
+        content: "Freel|";
+    }
+    48%{
+        content: "Free|";
+    }
+    51%{
+        content: "Fre|";
+    }
+    54%{
+        content: "Fr|";
+    }
+    57%{
+        content: 'F|';
+    }
+    60%{
+        content: 'D|';
+    }
+    63%{
+        content: 'De|';
+    }
+    66%{
+        content: 'Des|';
+    }
+    69%{
+        content: 'Desi|';
+    }
+    72%{
+        content: 'Desig|';
+    }
+    75%{
+        content: 'Design|';
+    }
+    75%{
+        content: 'Designe|';
+    }
+    78%{
+        content: 'Designer|';
+    }
+    81%{
+        content: 'Designe|';
+    }
+    84%{
+        content: 'Design|';
+    }
+    87%{
+        content: 'Desig|';
+    }
+    90%{
+        content: 'Desi|';
+    }
+    93%{
+        content: 'Des|';
+    }
+    96%{
+        content: 'De|';
+    }
+    99%{
+        content: 'D|';
+    }
+    100%{
+        content: '|';
+    }
+
+
+
+}
+
+
+    #about{
+        margin-top: 100px;
+        box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+       
+    }
+
+
+
+    .header-content{
+        font-size: 60px;
+ 
+    }
+
+    .line{
+        width: 40px;
+        height: 5px;
+        background-color: #0078ff;
+        margin: 0 auto;
+    }
+
+
+
+    
+    .card{
+       
+        padding: 1.5rem;
+        border: none;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    }
+ 
+
+
+
+    .card i{
+       
+
+    border: 10px #0078FF solid;
+    padding: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    transition: .5s;
+    
+        
+    } 
+
+    .card i:hover{
+
+        box-shadow: 0 0 10px #0078FF;
+        background-color: #0078FF;
+        padding: 20px;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        color: #F5F5F5;
+    } 
+
+
+
+
+
+  
+
+    .background{
+        background-color: #F5F5F5;
+    }
+
+
+    #services{
+        margin-top: 50px;
+    }
+
+
+
+    #people{
+        background-image: url(../img/counters-bg.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 50px;
+        background-attachment: fixed;
+    }
+
+
+
+    .contenar-2{
+     
+        background-color: rgba(0,125,225, 0.7);
+        
+    }
+
+  
+
+    .card-2 i{
+        border: 10px #CDE1F8 solid;
+        padding: 20px;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        transition: .5s;
+    }
+       
+    
+
+    .card-2{
+        margin-top: 100px;
+        margin-bottom: 60px;
+        
+     
+
+        
+    }
+
+
+    .card-3{
+        margin-top: 100px;
+        margin-bottom: 60px;
+        
+        box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    }
+    .img-5 img{
+        transition: .5s;
+       
+    }
+    .img-5{
+        overflow: hidden;
+    }
+
+    .card-3 img:hover {
+        transform: scale(1.2);
+    }
+    
+    #PORTFOLIO{
+        background-color: #F5F5F5;
+    }
+
+    .icon-2{
+        border: 5px #0078FF solid;
+        border-radius: 50%;
+        text-align: center;
+        transition: .2s;
+    }
+
+    .card-body-1{
+        background-color: #fff;
+    }
+
+
+
+
+    .carousel-inner{
+        background-image: url(../img/overlay-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+       
+        position: relative;
+        background-attachment: fixed;
+        
+        
+        
+    }
+
+
+
+    .background-2{
+        background-color: rgba(0,125,225, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+
+    }
+
+
+    .div-slider{
+        transform: translateY(50%);
+    }
+
+    .img-slider {
+        border-radius: 50%;
+    }
+
+    .card-10{
+        position: relative;
+    }
+
+    
+    .posin span{
+        padding: 5px 15px 5px;
+    }
+
+
+    .prgraf{
+        top: 84%;
+        right: 17px;
+    }
+
+   
+    .img-11 {
+        width: 15%;
+        border-radius:50% ;
+       
+        margin: 10px;
+    }
+
+
+    .card-12{
+        box-shadow: 0 13px 8px 5px rgba(0, 0, 0, 0.1);
+    }
+        input{
+            width: 100%;
+            padding: 10px;
+            border: #DEE2E6 1px solid;
+            transition: .5s;
+        }
+
+        input:focus{
+            box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+        }
+
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            border: #DEE2E6 1px solid;
+            transition: .5s;
+        }
+
+        form textarea:focus{
+            box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+        }
+
+        
+        
+        .line-2{
+          
+                width: 50px;
+                height: 5px;
+                background-color: #0078ff;
+               
+        }
+        .btn-1{
+            border: none;
+            background-color: #0078FF;
+            padding: 10px 24px;
+            margin-top: 5px;
+        }
+
+        .list-icon{
+            padding-left: 0px;
+           
+            
+        }
+
+        .list-icon li{
+            margin-top: 10px;
+        }
+
+        .list-icon span{
+            margin-right: 10px;
+            color: #0078FF;
+            
+        }
+
+
+        #contact{
+            background-image: url(../img/overlay-bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 20px;
+            box-shadow: 0 13px 8px 5px rgba(0, 0, 0, 0.3);
+            
+          
+           
+        }
+
+        .he{
+            background-color: rgba(0,125,225, 0.7);
+            padding-top: 10rem;
+            padding-bottom: 10rem;
+           
+           
+            
+        }
+
+
+        .ca{
+           
+            background-color: #fff;
+            padding: 30px;
+
+        }
+
+        .socials .ico-circle{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px #0078ff;
+            padding:10px;
+            transition: .5s;
+        }
+        
+        .socials .ico-circle:hover{
+     
+            box-shadow: 0 0 0 3px #0078ff;
+           background-color: #0078ff;
+           color: #fff;
+        }
+
+        #footer{
+            background-color: #0062D3;
+            padding: 3rem;
+            text-align: center;
+            color: #fff;
+        
+        }
+
+        #footer h3{
+          
+            font-size:16px ;
+        }
+        
+        .btn-999{
+            transition: .5s;
+        }
+        .btn-999:hover{
+            background-color: #2E90FF;
+            box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+        }
+
+  
+
+    
+
+
+
+ 
+
+    
+
+    
+
+
+
